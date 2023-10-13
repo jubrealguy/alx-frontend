@@ -48,12 +48,12 @@ a {
 }
 
 .card-category {
-    color: #D73953;
+    color: var(--color-primary);
 }
 .section-header {
     text-align: var(--section-header-align);
 }
 
 .section-tagline {
-    color: #D73953;
+    color: var(--color-primary);
 }
