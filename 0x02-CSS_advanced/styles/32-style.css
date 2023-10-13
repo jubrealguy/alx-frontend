@@ -209,7 +209,7 @@ ul.row {
 }
 
 .card-category {
-    color: #D73953;
+    color:  var(--color-primary);
 }
 
 .card-work .card-outer {
@@ -359,7 +359,7 @@ cite {
 }
 
 .section-tagline {
-    color: #D73953;
+    color:  var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
@@ -368,11 +368,12 @@ cite {
 
 .container {
     width: 960px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer {
-    padding: var(--section-footer-padding);
+    padding: var(--footer-padding);
 }
 
 .footer-copyright {
