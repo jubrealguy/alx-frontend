@@ -164,6 +164,10 @@ a:active {
     padding: 0.5rem 1rem;
 }
 
+.nav .nav-link::before {
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
