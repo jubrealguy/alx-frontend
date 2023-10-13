@@ -154,9 +154,13 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
     padding: .5rem 1rem;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
 
 .nav .nav-link::before {
@@ -169,13 +173,9 @@ a:active {
     height: 0.2rem;
 }
 
-.nav .nav-link:hover  .nav-link::before {
+.nav .nav-link:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
-}
-
-.nav-link:hover {
-    color: var(--nav-item-link-hover);
 }
 
 ul.row {
