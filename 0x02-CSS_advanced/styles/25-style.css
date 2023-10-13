@@ -50,11 +50,11 @@
 }
 
 [data-section-theme="dark"] {
-    background: var(--color-black);
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
+    background-color: var(--color-black);
     --button-color: var(--color-white);
-}
+  }
 
 * {
     box-sizing: border-box;
@@ -102,13 +102,13 @@ a:active {
     font-size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
-}
-
-.button:hover {
+  }
+  
+  .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
-}
+  }
 
 .visually-hidden {
     display: none;
