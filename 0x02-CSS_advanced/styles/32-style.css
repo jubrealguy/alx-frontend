@@ -373,12 +373,12 @@ cite {
 
 .footer-address {
     color: var(--text-color);
-}
-
-.social-link {
+  }
+  
+  .social-link {
     display: block;
-}
-
-.social-link > svg {
+  }
+  
+  .social-link > svg {
     fill: var(--text-color);
-}
+  }
