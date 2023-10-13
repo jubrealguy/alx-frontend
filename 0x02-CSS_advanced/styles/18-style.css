@@ -89,9 +89,6 @@ a:active {
 .nav {
     margin: 0;
     padding: 0;
-}
-
-.nav ul {
     list-style-type: none;
     text-align: center;
 }
